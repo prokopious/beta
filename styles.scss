@@ -20,6 +20,33 @@ $max-width: 1000px;
 @mixin mobile {
   @media (max-width: '600px') {
       @content;
+      color: black;
+      max-width: 96%;
+
+      #z {
+        font-size: 1px;
+      }
+
+      .header {
+        &__title {
+          margin: 0;
+          padding: 0;
+          font-size: 5px;
+          margin-left: 20px;
+        }
+       
+      }
+
+      p {font-size: 15px;}
+      a {font-size: 10px;}
+     
+      h2 {
+        color: red;
+        font-size: 25px;
+      }
+     
+   
+      
   }
 }
 
@@ -91,7 +118,7 @@ html {
   &__title {
     margin: 0;
     padding: 0;
-    font-size: 24px;
+    font-size: 15px;
     margin-left: 20px;
   }
 }

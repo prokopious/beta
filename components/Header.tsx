@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header">
      
       <a href="/">
-        <h1 className="header__title">Home</h1>
+        <h1 id="z" className="header__title">Home</h1>
       </a>
       <a href="/page2">
         <h1 className="header__title">Naturals</h1>
