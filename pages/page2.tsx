@@ -26,7 +26,7 @@ const Page2 = (props: IIndexProps) => {
         <div className="promotional-message">
           <h3></h3>
           <h2>The Glass Phial</h2>
-          <p><strong>A FINE COLLECTION OF PERFUMING COMPOUNDS</strong>.</p>
+          <p><strong>A COLLECTION OF FINE PERFUMING SUPPLIES</strong>.</p>
         </div>
         <ProductList products={props.products} />
         <Contact />
@@ -40,7 +40,7 @@ Page2.getInitialProps = async () => {
   return {
     products: [
       {id: "Virginia Rose", name: "Rosa Virginiana", price: 40.00, image: "../static/rose.jpg",description: "The pride of the Commonwealth is no longer Virginia cedar."} as IProduct,
-      {id: "Alpha Irone", name: "Alpha Irone", price: 50.00, image: "../static/ionone.png", description: "This product is among the main constituents of orris butter."} as IProduct,
+      {id: "Methyl Laitone", name: "Methyl Laitone", price: 50.00, image: "https://www.gardenia.net/storage/app/public/guides/detail/19587224_m.jpg", description: "Adds creamy notes to gardenia, sandalwood, etc."} as IProduct,
 
       {id: "Beeswax Absolute", name: "Beeswax Absolute", price: 7.50, image: "../static/wax.jpg", description: "Imparts a waxy note to rose and other floral accords."} as IProduct,
       {id: "nextjs_veiltail", name: "Veiltail Betta", price: 5.00, image: "../static/veiltail.jpg", description: "By far the most common betta fish. You can recognize it by its long tail aiming downwards."} as IProduct,
